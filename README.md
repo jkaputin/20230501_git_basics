@@ -8,3 +8,6 @@
 - 'git commit -m "message": add msg as you commit
 - 'git log': show reverse order of all commits
 	- 'git log --oneline'
+- 'git diff': diff all modified files in repo
+- 'git diff filename': diff a specified file
+
