@@ -14,8 +14,12 @@
 	- 'git diff --staged': diff staged area, after add
 	- 'git diff HASH/HEAD'
 - 'HEAD': tell you where you are now (at most recent commit)
-- 'git checkout <HASH>: move HEAD to hash
+- 'git checkout <HASH>': move HEAD to hash
 	- will be in a HEAD detached state
 	- git switch -
 	- git switch Master
-
+- 'git checkout <hash> <file>': to restore a deleted file to a prev commit
+- 'git restore <file>': ditto
+- 'git restore --source=<HASH> <FILE>: new way to restore
+remember, git status is your friend (tells you tips for next cmd)
+ 
