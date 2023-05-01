@@ -8,9 +8,14 @@
 - 'git commit -m "message": add msg as you commit
 - 'git log': show reverse order of all commits
 	- 'git log --oneline'
+	- 'git log --oneline --all'
 - 'git diff': diff all modified files in repo
 	- 'git diff filename': diff a specified file
 	- 'git diff --staged': diff staged area, after add
 	- 'git diff HASH/HEAD'
 - 'HEAD': tell you where you are now (at most recent commit)
+- 'git checkout <HASH>: move HEAD to hash
+	- will be in a HEAD detached state
+	- git switch -
+	- git switch Master
 
