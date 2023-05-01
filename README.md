@@ -23,3 +23,6 @@
 - 'git restore --source=<HASH> <FILE>: new way to restore
 remember, git status is your friend (tells you tips for next cmd)
  
+- '.gitignore': file path patterns to ignore, not track
+- 'touch <folder/>.gitkeep: convention to force empty folder to be tracked
+
