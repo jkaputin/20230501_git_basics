@@ -3,5 +3,6 @@
 - 'git init': initialize git repository (repo)
 	- do not nest git repos
 - 'git status': tell you things about what's going on in git
-- 'git add'
-- 'git commit'
+- 'git add': add a file to the staging area
+- 'git commit': commit changes from staging area to git repo
+
